@@ -1,1 +1,7 @@
+title: Analyses of GDP and its correlation with Population
+description: Does it indicate quality of life?
+theme: jekyll-theme-hacker
+markdown: kramdown
 
+include:
+  - style.css
