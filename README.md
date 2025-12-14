@@ -4,7 +4,6 @@
 
 
 <br>
-
 #### Introduction:
 
 For this homework assignment, I wanted to analyze global economic and demographic growth. To do this, I analyzed two datasets from Our World in Data. The two datasets were estimates for annual GDP per capita and population growth over time. The data for GDP per capita over time comes from the World Bank, whilst the population data comes from the United Nations. The combination of the two data sets includes integer values of population and GDP per capita of countries from the mid-20th century (around 1950) through 2023. 
@@ -28,9 +27,45 @@ While trying to prepare the data to be analyzed, there were many small issues. T
 Finally, in addition to the interpolation and filtering of the data, the population values of certain countries were very large; some of them were in the billions. To combat this, they were divided by 1 million to make them more interpretable on the graphs. The conversion of the GDP per capita of the countries was already converted to USD in the original data, so it remained in USD. For all of the countries, a dual axis line graph was created, which allowed me to show both GDP per capita and population growth on the same figure. This allows for a simple and direct comparison between the countries. The graphical visualizations make up a large portion of the results. The graphs for each country can be seen below, with a brief explanation of the visualization, along with possible reasoning for why the graph looks the way it does.
 
 
-
+<br><br>
+### Results: 
+<br> 
  <iframe 
   src="Bahamas_Graph.html"
   width="100%"
   height="600"
   style="border:none;">
+<br>
+
+This visualization shows the correlation between GDP per capita and population growth for The Bahamas. As you can see, there has been a steady increase in population growth since 1990. However, you can see significant dips in the GDP per capita over time. On the left of the visualization, you can see a constant decrease/ negative GDP per capita growth rate between 1990 and 1993. This could be due to the US recession that was taking place around that time. The Bahamas gets the majority of its finances from tourism from the US. The lack of travel due to the recession could be a factor for the dip. Another significant dip in the GDP per capita can be seen in 2020. This could be due to the COVID-19 outbreak. This halted travel, which majorly affected the country's GDP per capita which could be the cause of the sharp dip. However, even with these dips, you can see a steady positive correlation between the population and the GDP per capita growth rate. 
+
+<br>
+ <iframe 
+  src="India_Graph.html"
+  width="100%"
+  height="600"
+  style="border:none;">
+<br>
+  
+India shows a graph with a steady growth rate from 1990 to 2023, with an already high population of over 1 billion people. Even though the population is extremely high, the GDP is steadily increasing, but is still significantly lower than the other countries in this analysis. Between 1990 and 2023, the GDP per capita has only risen around 6500 to 7000 US dollars. The only significant dip in the GDP was in 2020; this could be due to the COVID-19 pandemic, similar to the other countries in this analysis. The low GDP could be attributed to the country’s excessively large population. The 1 billion+ population causes the GDP to be distributed too thin. Too many people, not enough resources. Even with a lower GDP per capita overall, we can still see a strong positive correlation between the country’s population and GDP per capita.
+
+<br> 
+ <iframe 
+  src="China_Graph.html"
+  width="100%"
+  height="600"
+  style="border:none;">
+<br> 
+
+In China, you can also see a strong correlation between the country’s population and GDP per capita. However, unlike other countries, China has no significant dips in population or GDP per capita. China has a large population of over 1.4 billion people, and its GDP per capita went from around 3000 US dollars to around 23000 US dollars. This graph shows a steady positive correlation between the two variables, with no significant dips in either data set. This helps form the correlation between population and GDP per capita.
+
+<br>
+<iframe 
+  src="Japan_Graph.html"
+  width="100%"
+  height="600"
+  style="border:none;">
+<br> 
+
+In this visualization, you can see large fluctuations in the two data sets. The population and GDP per capita both start off positively correlated. Then, as time went on and around 2006-2007, the population and GDP per capita began to decrease. After the initial drop, the GDP per capita began to increase and recover; however, the population continued to decrease to this day. One possible explanation for this is that the fertility rate in Japan is extremely low. Not many people are born in the country, and its residents are rapidly aging and living longer. This is one of the rare cases where the GDP per capita is increasing, but the population is decreasing. Even though this visualization goes against the idea of this analysis, it's necessary to get a broader picture of the correlation between population growth and GDP per capita.
+
