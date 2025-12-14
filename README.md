@@ -1,6 +1,9 @@
 # Homework-6-Portfolio
 ## Group Members: Yeye and Anthony
 ### [Open in Colab](https://colab.research.google.com/drive/1YPoKXQhoBLfMUFLgE_srbMpVlUXWWMOy)
+
+
+
 #### Introduction:
 
 For this homework assignment, I wanted to analyze global economic and demographic growth. To do this, I analyzed two datasets from Our World in Data. The two datasets were estimates for annual GDP per capita and population growth over time. The data for GDP per capita over time comes from the World Bank, whilst the population data comes from the United Nations. The combination of the two data sets includes integer values of population and GDP per capita of countries from the mid-20th century (around 1950) through 2023. 
@@ -12,6 +15,8 @@ How does a country's population change over time in relation to its GDP?
 Does a country's population indicate its quality of life/ does high population = high GDP or vice versa?
 
 In order to answer these questions, I merged the two datasets, cleaned the merged data, removed any years that were unusable, and created country-specific visualizations that show both the GDP per capita and population growth over time.
+
+
 
 
 #### Methods:
