@@ -17,8 +17,6 @@ Does a country's population indicate its quality of life/ does high population =
 In order to answer these questions, I merged the two datasets, cleaned the merged data, removed any years that were unusable, and created country-specific visualizations that show both the GDP per capita and population growth over time.
 
 
->
->
 <br><br>
 
 #### Methods:
