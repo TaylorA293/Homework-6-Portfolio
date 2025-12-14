@@ -26,3 +26,11 @@ After downloading the datasets from Our World in Data, I started by cleaning the
 While trying to prepare the data to be analyzed, there were many small issues. The data sets covered different ranges. To be specific, the population of the countries started from 1950, whilst the GDP per capita only started from 1990 onward. This caused around 40 years of data that be removed from the analysis. In addition to those missing 40 years of data, the population data set was missing the data points for 2024, because of this I removed that year entirely as well. Next, some of the countries in both of the datasets had missing data that were isolated throughout the years. In order to combat this, I used linear interpolation for each individual country. This allowed a best estimate to be made of the data while keeping the trend of the data consistent throughout. After the data was cleaned, I filtered the data to only use the eight countries: The Bahamas, India, China, Japan, and Nigeria. 
 
 Finally, in addition to the interpolation and filtering of the data, the population values of certain countries were very large; some of them were in the billions. To combat this, they were divided by 1 million to make them more interpretable on the graphs. The conversion of the GDP per capita of the countries was already converted to USD in the original data, so it remained in USD. For all of the countries, a dual axis line graph was created, which allowed me to show both GDP per capita and population growth on the same figure. This allows for a simple and direct comparison between the countries. The graphical visualizations make up a large portion of the results. The graphs for each country can be seen below, with a brief explanation of the visualization, along with possible reasoning for why the graph looks the way it does.
+
+
+
+ <iframe 
+  src="Bahamas Graph.html"
+  width="100%"
+  height="600"
+  style="border:none;">
