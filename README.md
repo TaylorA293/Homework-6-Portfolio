@@ -3,7 +3,7 @@
 ### [Open in Colab](https://colab.research.google.com/drive/1YPoKXQhoBLfMUFLgE_srbMpVlUXWWMOy)
 
 
-<br><br>
+<br>
 #### Introduction:
 
 For this homework assignment, I wanted to analyze global economic and demographic growth. To do this, I analyzed two datasets from Our World in Data. The two datasets were estimates for annual GDP per capita and population growth over time. The data for GDP per capita over time comes from the World Bank, whilst the population data comes from the United Nations. The combination of the two data sets includes integer values of population and GDP per capita of countries from the mid-20th century (around 1950) through 2023. 
